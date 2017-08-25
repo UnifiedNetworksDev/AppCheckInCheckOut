@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CHK_INCHK_OUT.Views.Tareas" Title="Actividades">
+    
+    <StackLayout Orientation="Vertical">
+        <ListView ItemsSource="{Binding ActividadesList}" HasUnevenRows="True">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical"
+                                 Padding="12,6">
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="{Binding activityInformation.description}"  LineBreakMode="NoWrap"
+                               Style="{DynamicResource ListItemTextStyle} "
+                               FontSize="16" HorizontalOptions="StartAndExpand" BackgroundColor="White"/>
+                                <Switch IsToggled="{Binding Selected}" HorizontalOptions="EndAndExpand" Toggled="Switch_Toggled" />
+                            </StackLayout>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <ActivityIndicator HorizontalOptions="Center" x:Name="actLoading" IsRunning="False" Color="#1360ad"/>
+        <Button x:Name="btnSend" HorizontalOptions="CenterAndExpand" Text="Check In" Clicked="Button_Clicked"></Button>
+    </StackLayout>
+</ContentPage>

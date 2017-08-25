@@ -1,0 +1,88 @@
+c:\users\adal\documents\visual studio 2015\Projects\CHK_INCHK_OUT\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\CHK_INCHK_OUT.dll
+c:\users\adal\documents\visual studio 2015\Projects\CHK_INCHK_OUT\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\CHK_INCHK_OUT.pdb
+c:\users\adal\documents\visual studio 2015\Projects\CHK_INCHK_OUT\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\Xamarin.Forms.Core.dll
+c:\users\adal\documents\visual studio 2015\Projects\CHK_INCHK_OUT\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\Xamarin.Forms.Platform.dll
+c:\users\adal\documents\visual studio 2015\Projects\CHK_INCHK_OUT\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\Xamarin.Forms.Xaml.dll
+c:\users\adal\documents\visual studio 2015\Projects\CHK_INCHK_OUT\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\Xamarin.Forms.Core.pdb
+c:\users\adal\documents\visual studio 2015\Projects\CHK_INCHK_OUT\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\Xamarin.Forms.Core.xml
+c:\users\adal\documents\visual studio 2015\Projects\CHK_INCHK_OUT\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\Xamarin.Forms.Platform.pdb
+c:\users\adal\documents\visual studio 2015\Projects\CHK_INCHK_OUT\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\Xamarin.Forms.Xaml.pdb
+c:\users\adal\documents\visual studio 2015\Projects\CHK_INCHK_OUT\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\Xamarin.Forms.Xaml.xml
+c:\users\adal\documents\visual studio 2015\Projects\CHK_INCHK_OUT\CHK_INCHK_OUT\CHK_INCHK_OUT\obj\Debug\CHK_INCHK_OUT.App.xaml.g.cs
+c:\users\adal\documents\visual studio 2015\Projects\CHK_INCHK_OUT\CHK_INCHK_OUT\CHK_INCHK_OUT\obj\Debug\CHK_INCHK_OUT.dll
+c:\users\adal\documents\visual studio 2015\Projects\CHK_INCHK_OUT\CHK_INCHK_OUT\CHK_INCHK_OUT\obj\Debug\CHK_INCHK_OUT.pdb
+C:\Users\Adal\documents\visual studio 2015\Projects\CHK_INCHK_OUT\CHK_INCHK_OUT\CHK_INCHK_OUT\obj\Debug\CHK_INCHK_OUT.Views.MainPage.xaml.g.cs
+C:\Users\Adal\documents\visual studio 2015\Projects\CHK_INCHK_OUT\CHK_INCHK_OUT\CHK_INCHK_OUT\obj\Debug\CHK_INCHK_OUT.Views.Menu.xaml.g.cs
+C:\Users\Adal\documents\visual studio 2015\Projects\CHK_INCHK_OUT\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\ZXing.Net.Mobile.Core.dll
+C:\Users\Adal\documents\visual studio 2015\Projects\CHK_INCHK_OUT\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\zxing.portable.dll
+C:\Users\Adal\documents\visual studio 2015\Projects\CHK_INCHK_OUT\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\ZXingNetMobile.dll
+C:\Users\Adal\Documents\Desarrollos\CHK_INCHK_OUT\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\CHK_INCHK_OUT.dll
+C:\Users\Adal\Documents\Desarrollos\CHK_INCHK_OUT\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\CHK_INCHK_OUT.pdb
+C:\Users\Adal\Documents\Desarrollos\CHK_INCHK_OUT\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\Adal\Documents\Desarrollos\CHK_INCHK_OUT\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\Adal\Documents\Desarrollos\CHK_INCHK_OUT\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Adal\Documents\Desarrollos\CHK_INCHK_OUT\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\ZXing.Net.Mobile.Core.dll
+C:\Users\Adal\Documents\Desarrollos\CHK_INCHK_OUT\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\zxing.portable.dll
+C:\Users\Adal\Documents\Desarrollos\CHK_INCHK_OUT\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\ZXingNetMobile.dll
+C:\Users\Adal\Documents\Desarrollos\CHK_INCHK_OUT\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\Adal\Documents\Desarrollos\CHK_INCHK_OUT\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Adal\Documents\Desarrollos\CHK_INCHK_OUT\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\Users\Adal\Documents\Desarrollos\CHK_INCHK_OUT\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\Adal\Documents\Desarrollos\CHK_INCHK_OUT\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Adal\Documents\Desarrollos\CHK_INCHK_OUT\CHK_INCHK_OUT\CHK_INCHK_OUT\obj\Debug\CHK_INCHK_OUT.Views.MainPage.xaml.g.cs
+C:\Users\Adal\Documents\Desarrollos\CHK_INCHK_OUT\CHK_INCHK_OUT\CHK_INCHK_OUT\obj\Debug\CHK_INCHK_OUT.App.xaml.g.cs
+C:\Users\Adal\Documents\Desarrollos\CHK_INCHK_OUT\CHK_INCHK_OUT\CHK_INCHK_OUT\obj\Debug\CHK_INCHK_OUT.Views.Menu.xaml.g.cs
+C:\Users\Adal\Documents\Desarrollos\CHK_INCHK_OUT\CHK_INCHK_OUT\CHK_INCHK_OUT\obj\Debug\CHK_INCHK_OUT.dll
+C:\Users\Adal\Documents\Desarrollos\CHK_INCHK_OUT\CHK_INCHK_OUT\CHK_INCHK_OUT\obj\Debug\CHK_INCHK_OUT.pdb
+C:\Users\Adal\Documents\Desarrollos\CHK_INCHK_OUT\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\Plugin.Geolocator.Abstractions.dll
+C:\Users\Adal\Documents\Desarrollos\CHK_INCHK_OUT\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\Plugin.Geolocator.dll
+C:\Users\Adal\Documents\Desarrollos\CHK_INCHK_OUT\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\Plugin.Geolocator.pdb
+C:\Users\Adal\Documents\Desarrollos\CHK_INCHK_OUT\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\Plugin.Geolocator.xml
+C:\Users\Adal\Documents\Desarrollos\CHK_INCHK_OUT\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\Plugin.Geolocator.Abstractions.pdb
+C:\Users\Adal\Documents\Desarrollos\CHK_INCHK_OUT\CHK_INCHK_OUT\CHK_INCHK_OUT\obj\Debug\CHK_INCHK_OUT.csprojResolveAssemblyReference.cache
+C:\Users\Adal\Documents\Desarrollos\CHK_INCHK_OUT\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\CHK_INCHK_OUT.dll.config
+C:\Users\Adal\Documents\Desarrollos\CHK_INCHK_OUT\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Adal\Documents\Desarrollos\CHK_INCHK_OUT\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\System.Net.Http.dll
+C:\Users\Adal\Documents\Desarrollos\CHK_INCHK_OUT\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\Adal\Documents\Desarrollos\CHK_INCHK_OUT\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\Adal\Documents\Desarrollos\CHK_INCHK_OUT\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Adal\Documents\Desarrollos\CHK_INCHK_OUT\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\System.Net.Http.xml
+C:\Users\Adal\Documents\Desarrollos\CHK_INCHK_OUT\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\Adal\Documents\Desarrollos\CHK_INCHK_OUT\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\Adal\Documents\Desarrollos\CHK_INCHK_OUT\CHK_INCHK_OUT\CHK_INCHK_OUT\obj\Debug\CHK_INCHK_OUT.csproj.App.config
+C:\Users\Adal\Documents\Desarrollos\CHK_INCHK_OUT\CHK_INCHK_OUT\CHK_INCHK_OUT\obj\Debug\CHK_INCHK_OUT.Views.Tareas.xaml.g.cs
+C:\Users\Adal\Documents\Desarrollos\AppCheckInCheckOut-2\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\CHK_INCHK_OUT.dll.config
+C:\Users\Adal\Documents\Desarrollos\AppCheckInCheckOut-2\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\CHK_INCHK_OUT.dll
+C:\Users\Adal\Documents\Desarrollos\AppCheckInCheckOut-2\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\CHK_INCHK_OUT.pdb
+C:\Users\Adal\Documents\Desarrollos\AppCheckInCheckOut-2\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Adal\Documents\Desarrollos\AppCheckInCheckOut-2\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\Plugin.Geolocator.Abstractions.dll
+C:\Users\Adal\Documents\Desarrollos\AppCheckInCheckOut-2\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\Plugin.Geolocator.dll
+C:\Users\Adal\Documents\Desarrollos\AppCheckInCheckOut-2\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\System.Net.Http.dll
+C:\Users\Adal\Documents\Desarrollos\AppCheckInCheckOut-2\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\Adal\Documents\Desarrollos\AppCheckInCheckOut-2\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\Adal\Documents\Desarrollos\AppCheckInCheckOut-2\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\Adal\Documents\Desarrollos\AppCheckInCheckOut-2\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\Adal\Documents\Desarrollos\AppCheckInCheckOut-2\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Adal\Documents\Desarrollos\AppCheckInCheckOut-2\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\ZXing.Net.Mobile.Core.dll
+C:\Users\Adal\Documents\Desarrollos\AppCheckInCheckOut-2\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\zxing.portable.dll
+C:\Users\Adal\Documents\Desarrollos\AppCheckInCheckOut-2\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\ZXingNetMobile.dll
+C:\Users\Adal\Documents\Desarrollos\AppCheckInCheckOut-2\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Adal\Documents\Desarrollos\AppCheckInCheckOut-2\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\Plugin.Geolocator.pdb
+C:\Users\Adal\Documents\Desarrollos\AppCheckInCheckOut-2\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\Plugin.Geolocator.xml
+C:\Users\Adal\Documents\Desarrollos\AppCheckInCheckOut-2\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\Plugin.Geolocator.Abstractions.pdb
+C:\Users\Adal\Documents\Desarrollos\AppCheckInCheckOut-2\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\System.Net.Http.xml
+C:\Users\Adal\Documents\Desarrollos\AppCheckInCheckOut-2\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\Adal\Documents\Desarrollos\AppCheckInCheckOut-2\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\Adal\Documents\Desarrollos\AppCheckInCheckOut-2\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\Adal\Documents\Desarrollos\AppCheckInCheckOut-2\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Adal\Documents\Desarrollos\AppCheckInCheckOut-2\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\Users\Adal\Documents\Desarrollos\AppCheckInCheckOut-2\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\Adal\Documents\Desarrollos\AppCheckInCheckOut-2\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Adal\Documents\Desarrollos\AppCheckInCheckOut-2\CHK_INCHK_OUT\CHK_INCHK_OUT\obj\Debug\CHK_INCHK_OUT.csproj.App.config
+C:\Users\Adal\Documents\Desarrollos\AppCheckInCheckOut-2\CHK_INCHK_OUT\CHK_INCHK_OUT\obj\Debug\CHK_INCHK_OUT.Views.MainPage.xaml.g.cs
+C:\Users\Adal\Documents\Desarrollos\AppCheckInCheckOut-2\CHK_INCHK_OUT\CHK_INCHK_OUT\obj\Debug\CHK_INCHK_OUT.App.xaml.g.cs
+C:\Users\Adal\Documents\Desarrollos\AppCheckInCheckOut-2\CHK_INCHK_OUT\CHK_INCHK_OUT\obj\Debug\CHK_INCHK_OUT.Views.Tareas.xaml.g.cs
+C:\Users\Adal\Documents\Desarrollos\AppCheckInCheckOut-2\CHK_INCHK_OUT\CHK_INCHK_OUT\obj\Debug\CHK_INCHK_OUT.Views.Menu.xaml.g.cs
+C:\Users\Adal\Documents\Desarrollos\AppCheckInCheckOut-2\CHK_INCHK_OUT\CHK_INCHK_OUT\obj\Debug\CHK_INCHK_OUT.dll
+C:\Users\Adal\Documents\Desarrollos\AppCheckInCheckOut-2\CHK_INCHK_OUT\CHK_INCHK_OUT\obj\Debug\CHK_INCHK_OUT.pdb
+C:\Users\Adal\Documents\Desarrollos\AppCheckInCheckOut-2\CHK_INCHK_OUT\CHK_INCHK_OUT\obj\Debug\CHK_INCHK_OUT.csprojResolveAssemblyReference.cache
