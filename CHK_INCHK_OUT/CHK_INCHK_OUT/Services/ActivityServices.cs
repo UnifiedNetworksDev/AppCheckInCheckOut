@@ -32,7 +32,7 @@ namespace CHK_INCHK_OUT.Services
             {
                 if (ex.Message == "404 (Not Found)")
                 {
-                    throw new Exception("No fueron encontradas órdenes de entrega", ex);
+                    throw new Exception("No fueron encontradas actividades asignadas a este proyecto", ex);
                 }
                 else
                 {

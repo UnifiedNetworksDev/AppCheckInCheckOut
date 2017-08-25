@@ -12,11 +12,7 @@ namespace CHK_INCHK_OUT
         public App()
         {
             InitializeComponent();
-            MainPage = new NavigationPage(new MainPage());
-        }
-
-        protected override void OnStart()
-        {
+            //If user is logged
             if (App.Current.Properties.ContainsKey("logged") && ((bool)App.Current.Properties["logged"]))
             {
                 MainPage = new NavigationPage(new Views.Menu());
@@ -25,6 +21,11 @@ namespace CHK_INCHK_OUT
             {
                 MainPage = new NavigationPage(new MainPage());
             }
+        }
+
+        protected override void OnStart()
+        {
+            
             // Handle when your app starts
         }
 

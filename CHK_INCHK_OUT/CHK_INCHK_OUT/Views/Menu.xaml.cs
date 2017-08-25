@@ -21,6 +21,15 @@ namespace CHK_INCHK_OUT.Views
         {
             this.token = PropertiesOperations.GetTokenProperties();
             InitializeComponent();
+
+            //if users checked in, redirect to activies page so that can check out
+            if(App.Current.Properties.ContainsKey("checkIn") && ((bool)App.Current.Properties["checkIn"]) && App.Current.Properties.ContainsKey("numProy"))
+            {
+                Device.BeginInvokeOnMainThread(async () =>
+                {
+                    await Navigation.PushAsync(new Tareas((string)App.Current.Properties["numProy"], token));
+                });
+            }
         }
 
         void HandleResult(ZXing.Result result)
@@ -31,6 +40,7 @@ namespace CHK_INCHK_OUT.Views
                 msg = "Barcode:" + result.Text + "(" + result.BarcodeFormat + ")";
 
                 proyectoN.Text = result.Text;
+                App.Current.Properties["numProy"] = proyectoN.Text;
             }
         }
         private async void Scanner_Tapped(object sender, EventArgs e)
@@ -74,8 +84,9 @@ namespace CHK_INCHK_OUT.Views
                         App.Current.Properties["latitudeCheckIn"] = position.Latitude.ToString();
                         App.Current.Properties["longitudeCheckIn"] = position.Longitude.ToString();
                         App.Current.Properties["dateCheckIn"] = checkIn;
+                        App.Current.Properties["checkIn"] = true;
 
-                        await DisplayAlert("Check in", String.Format("Has realizado check in a las {0} ", checkIn.ToString("hh:mm")), "OK");
+                        await DisplayAlert("Check in", String.Format("Has realizado check in a las {0} ", checkIn.ToString("HH:mm")), "OK");
                         await Navigation.PushAsync(new Tareas(proyectoN.Text, token));
                         actLoading.IsRunning = false;
                     }

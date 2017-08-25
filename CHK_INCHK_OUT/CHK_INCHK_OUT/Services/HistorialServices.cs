@@ -37,6 +37,8 @@ namespace CHK_INCHK_OUT.Services
                 HttpContent httpContent = new StringContent(json, Encoding.UTF8, "application/json");
                 httpContent.Headers.ContentType = new MediaTypeHeaderValue("application/json");
                 var result = await HttpSingleton.GetInstance().PutAsync(String.Format("{0}api/ActivityHistory", APISettings.API_URL), httpContent).ConfigureAwait(false);
+                result.EnsureSuccessStatusCode();
+
                 var respuesta = await result.Content.ReadAsStringAsync();
                 ErrorResponse response = JsonConvert.DeserializeObject<ErrorResponse>(respuesta);
                 return response.message;

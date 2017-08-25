@@ -14,13 +14,6 @@ namespace CHK_INCHK_OUT
         public MainPage()
         {
             InitializeComponent();
-            if (App.Current.Properties.ContainsKey("logged") && ((bool)App.Current.Properties["logged"]))
-            {
-                Device.BeginInvokeOnMainThread(async () =>
-                {
-                    await this.RemoveLogin();
-                });
-            }
         }
 
         private async void BtnLogin_Clicked(object sender, EventArgs e)

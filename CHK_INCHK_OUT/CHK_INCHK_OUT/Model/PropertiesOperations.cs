@@ -13,7 +13,7 @@ namespace CHK_INCHK_OUT.Model
         {
             try
             {
-                if(App.Current.Properties.ContainsKey("logged"))
+                if (App.Current.Properties.ContainsKey("logged"))
                     App.Current.Properties.Remove("logged");
 
                 if (App.Current.Properties.ContainsKey("latitudeCheckIn"))
@@ -24,7 +24,23 @@ namespace CHK_INCHK_OUT.Model
 
                 if (App.Current.Properties.ContainsKey("dateCheckIn"))
                     App.Current.Properties.Remove("dateCheckIn");
+
+                if (App.Current.Properties.ContainsKey("checkIn"))
+                    App.Current.Properties.Remove("checkIn");
+
+                if (App.Current.Properties.ContainsKey("AccessToken"))
+                    App.Current.Properties.Remove("AccessToken");
+
+                if (App.Current.Properties.ContainsKey("UserIDCRM"))
+                    App.Current.Properties.Remove("UserIDCRM");
+
+                if (App.Current.Properties.ContainsKey("Username"))
+                    App.Current.Properties.Remove("Username");
+
+                if (App.Current.Properties.ContainsKey("numProy"))
+                    App.Current.Properties.Remove("numProy");
             }
+
             catch (Exception ex)
             {
                 throw ex;
