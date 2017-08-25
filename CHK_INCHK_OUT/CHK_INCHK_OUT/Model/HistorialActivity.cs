@@ -12,7 +12,7 @@ namespace CHK_INCHK_OUT.Model
         public string longitude { get; set; }
         public string userID { get; set; }
         public bool checkInCheckOut { get; set; }
-        //public DateTime date { get; set; }
+        public DateTime date { get; set; }
         public string activityID { get; set; }
 
     }

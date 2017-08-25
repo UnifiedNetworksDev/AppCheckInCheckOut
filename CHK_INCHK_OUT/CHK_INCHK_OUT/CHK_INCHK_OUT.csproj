@@ -42,6 +42,7 @@
     <Compile Include="Model\HistorialActivity.cs" />
     <Compile Include="Model\HttpSingleton.cs" />
     <Compile Include="Model\Login.cs" />
+    <Compile Include="Model\PropertiesOperations.cs" />
     <Compile Include="Model\SelectedData.cs" />
     <Compile Include="Model\TareasModel.cs" />
     <Compile Include="Model\Token.cs" />

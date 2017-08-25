@@ -17,9 +17,9 @@ namespace CHK_INCHK_OUT.Views
     public partial class Menu : ContentPage
     {
         Token token;
-        public Menu(Token token)
+        public Menu()
         {
-            this.token = token;
+            this.token = PropertiesOperations.GetTokenProperties();
             InitializeComponent();
         }
 
@@ -31,11 +31,6 @@ namespace CHK_INCHK_OUT.Views
                 msg = "Barcode:" + result.Text + "(" + result.BarcodeFormat + ")";
 
                 proyectoN.Text = result.Text;
-                actLoading.IsRunning = false;
-            }
-            else
-            {
-                actLoading.IsRunning = false;
             }
         }
         private async void Scanner_Tapped(object sender, EventArgs e)
@@ -52,8 +47,9 @@ namespace CHK_INCHK_OUT.Views
 
                 actLoading.IsRunning = true;
                 HandleResult(result);
+                actLoading.IsRunning = false;
             }
-            catch 
+            catch (Exception ex)
             {
 
             }
@@ -68,9 +64,20 @@ namespace CHK_INCHK_OUT.Views
                 {
                     if (proyectoN.Text.Trim() != string.Empty)
                     {
+                        actLoading.IsRunning = true;
                         ProjectService service = new ProjectService();
                         await service.ValidateProject(proyectoN.Text.Trim());
-                        await Navigation.PushAsync(new Tareas(proyectoN.Text , token));
+
+                        DateTime checkIn = DateTime.Now;
+
+                        var position = await CrossGeolocator.Current.GetPositionAsync();
+                        App.Current.Properties["latitudeCheckIn"] = position.Latitude.ToString();
+                        App.Current.Properties["longitudeCheckIn"] = position.Longitude.ToString();
+                        App.Current.Properties["dateCheckIn"] = checkIn;
+
+                        await DisplayAlert("Check in", String.Format("Has realizado check in a las {0} ", checkIn.ToString("hh:mm")), "OK");
+                        await Navigation.PushAsync(new Tareas(proyectoN.Text, token));
+                        actLoading.IsRunning = false;
                     }
                     else
                     {
@@ -89,8 +96,9 @@ namespace CHK_INCHK_OUT.Views
             }
         }
 
-        private async void ToolbarItem_Clicked(object sender, EventArgs e)
+        private async void Logout_Clicked(object sender, EventArgs e)
         {
+            PropertiesOperations.RemoveProperties();
             Navigation.InsertPageBefore(new MainPage(), this);
             await Navigation.PopAsync().ConfigureAwait(false);
         }

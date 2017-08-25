@@ -107,7 +107,6 @@ class MonoPackageManager_Resources {
 		"Plugin.Geolocator.dll",
 		"Plugin.Permissions.Abstractions.dll",
 		"Plugin.Permissions.dll",
-		"System.ObjectModel.dll",
 		"Xamarin.Android.Support.Animated.Vector.Drawable.dll",
 		"Xamarin.Android.Support.Annotations.dll",
 		"Xamarin.Android.Support.Compat.dll",

@@ -12,22 +12,22 @@ using CHK_INCHK_OUT.Services;
 
 namespace CHK_INCHK_OUT.Views
 {
-   // [XamlCompilation(XamlCompilationOptions.Compile)]
+    // [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Tareas : ContentPage
     {
-        bool check = true;
+        //bool check = true;
         string nproyecto;
         Token token;
         string latitud;
         string longitud;
         private ActivityViewModels viewModel;
-       
-        public Tareas(string nProyecto , Token token)
+
+        public Tareas(string nProyecto, Token token)
         {
             this.nproyecto = nProyecto;
             this.token = token;
             InitializeComponent();
-            
+
             try
             {
                 BindingContext = viewModel = new ActivityViewModels(nproyecto);
@@ -49,41 +49,60 @@ namespace CHK_INCHK_OUT.Views
                 actLoading.IsRunning = true;
                 var list = viewModel.GetSelected(); //get activities checked
 
-                var locator = CrossGeolocator.Current;
-                locator.DesiredAccuracy = 50;
-                var position = await locator.GetPositionAsync();
+                var position = await CrossGeolocator.Current.GetPositionAsync();
                 latitud = position.Latitude.ToString();
                 longitud = position.Longitude.ToString();
-                DateTime fecha = DateTime.Now;
 
-                List<HistorialActivity> data = new List<HistorialActivity>();
+                List<HistorialActivity> dataCheckIn = new List<HistorialActivity>();
 
                 foreach (var lista in list)
                 {
                     HistorialActivity info = new HistorialActivity();
                     info.activityID = lista.activityInformation.idActivity.ToString();
-                    info.checkInCheckOut = check;
+                    info.checkInCheckOut = true;
                     info.userID = this.token.UserIDCRM;
-                    info.latitude = latitud;
-                    info.longitude = longitud;
-                    data.Add(info);
+                    if (App.Current.Properties.ContainsKey("latitudeCheckIn"))
+                        info.latitude = (string)App.Current.Properties["latitudeCheckIn"];
+
+                    if (App.Current.Properties.ContainsKey("longitudeCheckIn"))
+                        info.longitude = (string)App.Current.Properties["longitudeCheckIn"];
+
+                    if (App.Current.Properties.ContainsKey("dateCheckIn"))
+                        info.date = (DateTime)App.Current.Properties["dateCheckIn"];
+
+                    dataCheckIn.Add(info);
                 }
 
                 HistorialServices service = new HistorialServices();
-                if (check)
+                //if (check)
+                //{
+                await service.PutAsyncCheckIn(dataCheckIn);
+                //await DisplayAlert("Check in", String.Format("Has realizado check in a las {0} ", fecha.ToString("hh:mm")), "OK");
+                //check = false;
+                //btnSend.Text = "Check out";
+                //}
+                //else
+                //{
+
+                List<HistorialActivity> dataCheckOut = new List<HistorialActivity>();
+                DateTime fecha = DateTime.Now;
+                foreach (HistorialActivity obj in dataCheckIn)
                 {
-                    await service.PutAsyncCheckIn(data);
-                    await DisplayAlert("Check in", String.Format("Has realizado check in a las {0} ", fecha.ToString("hh:mm")), "OK");
-                    check = false;
-                    btnSend.Text = "Check out";
+                    HistorialActivity data = new HistorialActivity();
+                    data.activityID = obj.activityID;
+                    data.checkInCheckOut = false;
+                    data.date = fecha;
+                    data.latitude = obj.latitude;
+                    data.longitude = obj.longitude;
+                    data.userID = obj.userID;
+                    dataCheckOut.Add(data);
                 }
-                else
-                {
-                    string message = await service.PutAsyncCheckOut(data);
-                    await DisplayAlert("Check out", String.Format("Has realizado check out a las {0}. El tiempo transcurrido fue de: {1}", fecha.ToString("hh:mm"), message), "OK");
-                    btnSend.Text = "Check in";
-                    await Navigation.PopAsync();
-                }
+
+                string message = await service.PutAsyncCheckOut(dataCheckOut);
+                await DisplayAlert("Check out", String.Format("Has realizado check out a las {0}. El tiempo transcurrido fue de: {1}", fecha.ToString("hh:mm"), message), "OK");
+                btnSend.Text = "Check in";
+                await Navigation.PopAsync();
+                //}
                 actLoading.IsRunning = false;
             }
             catch (Exception ex)
@@ -95,7 +114,7 @@ namespace CHK_INCHK_OUT.Views
 
         private void Switch_Toggled(object sender, ToggledEventArgs e)
         {
-           
+
         }
 
         private async void ToolbarItem_Clicked(object sender, EventArgs e)
