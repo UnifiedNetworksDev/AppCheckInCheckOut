@@ -34,6 +34,10 @@ namespace CHK_INCHK_OUT.Model
             }
         }
 
+        /// <summary>
+        /// Return selected activities
+        /// </summary>
+        /// <returns></returns>
         public List<SelectedData<TareasModel>> GetSelected()
         {
             try

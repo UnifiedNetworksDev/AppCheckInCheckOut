@@ -2,8 +2,12 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CHK_INCHK_OUT.Views.Tareas" Title="Actividades">
-    
+
     <StackLayout Orientation="Vertical">
+        <StackLayout Orientation="Horizontal" Margin="5,0,0,20">
+            <Label Text="Proyecto:" HorizontalOptions="Start" FontSize="18" TextColor="Black" FontAttributes="Bold"></Label>
+            <Label x:Name="lblProject" HorizontalOptions="Start" FontSize="18" TextColor="Black"></Label>
+        </StackLayout>
         <ListView ItemsSource="{Binding ActividadesList}" HasUnevenRows="True">
             <ListView.ItemTemplate>
                 <DataTemplate>
@@ -11,9 +15,8 @@
                         <StackLayout Orientation="Vertical"
                                  Padding="12,6">
                             <StackLayout Orientation="Horizontal">
-                                <Label Text="{Binding activityInformation.description}"  LineBreakMode="NoWrap"
-                               Style="{DynamicResource ListItemTextStyle} "
-                               FontSize="16" HorizontalOptions="StartAndExpand" BackgroundColor="White"/>
+                                <Label Text="{Binding activityInformation.description}"
+                               FontSize="16" HorizontalOptions="Start" BackgroundColor="White"/>
                                 <Switch IsToggled="{Binding Selected}" HorizontalOptions="EndAndExpand" Toggled="Switch_Toggled" />
                             </StackLayout>
                         </StackLayout>

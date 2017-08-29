@@ -11,6 +11,7 @@ namespace CHK_INCHK_OUT.Model
         public string Username { get; set; }
         public string AccessToken { get; set; }
         public string UserIDCRM { get; set; }
+        public string FullName { get; set; }
 
     }
 }

@@ -18,8 +18,6 @@ namespace CHK_INCHK_OUT.Views
         //bool check = true;
         string nproyecto;
         Token token;
-        string latitud;
-        string longitud;
         private ActivityViewModels viewModel;
 
         public Tareas(string nProyecto, Token token)
@@ -31,6 +29,7 @@ namespace CHK_INCHK_OUT.Views
             try
             {
                 BindingContext = viewModel = new ActivityViewModels(nproyecto);
+                lblProject.Text = viewModel.ActividadesList[0].activityInformation.projectName;
             }
             catch (Exception ex)
             {
@@ -47,6 +46,7 @@ namespace CHK_INCHK_OUT.Views
 
         private async void Button_Clicked(object sender, EventArgs e)
         {
+            btnSend.IsEnabled = false;
             try
             {
                 var list = viewModel.GetSelected(); //get activities checked
@@ -56,8 +56,8 @@ namespace CHK_INCHK_OUT.Views
                     actLoading.IsRunning = true;
 
                     var position = await CrossGeolocator.Current.GetPositionAsync();
-                    latitud = position.Latitude.ToString();
-                    longitud = position.Longitude.ToString();
+                    string latitud = position.Latitude.ToString();
+                    string longitud = position.Longitude.ToString();
 
                     List<HistorialActivity> dataCheckIn = new List<HistorialActivity>();
 
@@ -114,9 +114,12 @@ namespace CHK_INCHK_OUT.Views
                 {
                     await DisplayAlert("Error", "Favor de marcar como terminada al menos una actividad", "OK");
                 }
+                btnSend.IsEnabled = true;
             }
             catch (Exception ex)
             {
+                actLoading.IsRunning = false;
+                btnSend.IsEnabled = true;
                 await DisplayAlert("Error", "Ha ocurrido un error", "OK");
             }
 

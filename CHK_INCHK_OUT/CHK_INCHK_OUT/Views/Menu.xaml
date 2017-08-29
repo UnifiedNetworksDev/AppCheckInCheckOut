@@ -5,20 +5,26 @@
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Cerrar Sesión" Clicked="Logout_Clicked"/>
     </ContentPage.ToolbarItems>
-    <StackLayout Padding="5" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand">
-        <Image Source="qrcode.png" HorizontalOptions="Center">
-            <Image.GestureRecognizers>
-                <TapGestureRecognizer Tapped="Scanner_Tapped"  />
-            </Image.GestureRecognizers>
-        </Image>
-        <Label HorizontalOptions="Center" FontAttributes="Bold" FontSize="20" TextColor="Black"  Text="Escanear" HorizontalTextAlignment="Center"/>
-        <ActivityIndicator HorizontalOptions="Center" x:Name="actLoading" IsRunning="False" Color="#1360ad"/>
-        <Image Source="list.png" HorizontalOptions="Center">
-            <Image.GestureRecognizers>
-                <TapGestureRecognizer Tapped="Send_Tapped"  />
-            </Image.GestureRecognizers>
-        </Image>
-        <Label FontAttributes="Bold" FontSize="20" TextColor="Black"  Text="Actividades" HorizontalTextAlignment="Center"/>
-        <Entry HorizontalOptions="Center" WidthRequest="200" Text="" Placeholder="# de Proyecto" TextColor="Black"  PlaceholderColor="Black" x:Name="proyectoN" HorizontalTextAlignment="Center" />
+    <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand">
+        <StackLayout Orientation="Horizontal" Margin="5,0,0,0">
+            <Label Text="Bienvenido:" VerticalOptions="Start" FontAttributes="Bold" FontSize="16" TextColor="Black" HorizontalTextAlignment="Start"/>
+            <Label x:Name="lblFullName" VerticalOptions="Start" TextColor="Black" FontSize="16" HorizontalTextAlignment="Start"/>
+        </StackLayout>
+        <StackLayout Margin="0,100,0,0">
+            <Image Source="qrcode.png" HorizontalOptions="Center">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="Scanner_Tapped"  />
+                </Image.GestureRecognizers>
+            </Image>
+            <Label HorizontalOptions="Center" FontAttributes="Bold" FontSize="20" TextColor="Black"  Text="Escanear" HorizontalTextAlignment="Center"/>
+            <ActivityIndicator HorizontalOptions="Center" x:Name="actLoading" IsRunning="False" Color="#1360ad"/>
+            <Entry HorizontalOptions="Center" WidthRequest="200" Text="" Placeholder="# de Proyecto" TextColor="Black"  PlaceholderColor="Black" x:Name="proyectoN" HorizontalTextAlignment="Center" />
+            <Image Source="list.png" HorizontalOptions="Center">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="Send_Tapped"  />
+                </Image.GestureRecognizers>
+            </Image>
+            <Label FontAttributes="Bold" FontSize="20" TextColor="Black"  Text="Actividades" HorizontalTextAlignment="Center"/>
+        </StackLayout>
     </StackLayout>
 </ContentPage>

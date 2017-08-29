@@ -10,7 +10,6 @@ namespace CHK_INCHK_OUT.Model
     {
         public string description { get; set; }
         public string idActivity { get; set; }
-
-        public Token token = new Token();
+        public string projectName { get; set; }
     }
 }

@@ -39,6 +39,9 @@ namespace CHK_INCHK_OUT.Model
 
                 if (App.Current.Properties.ContainsKey("numProy"))
                     App.Current.Properties.Remove("numProy");
+
+                if (App.Current.Properties.ContainsKey("FullName"))
+                    App.Current.Properties.Remove("FullName");
             }
 
             catch (Exception ex)
@@ -61,6 +64,9 @@ namespace CHK_INCHK_OUT.Model
                 if (App.Current.Properties.ContainsKey("Username"))
                     token.Username = (string)App.Current.Properties["Username"];
 
+                if (App.Current.Properties.ContainsKey("FullName"))
+                    token.FullName = (string)App.Current.Properties["FullName"];
+
                 return token;
 
             }
@@ -77,6 +83,8 @@ namespace CHK_INCHK_OUT.Model
                 App.Current.Properties["AccessToken"] = token.AccessToken;
                 App.Current.Properties["UserIDCRM"] = token.UserIDCRM;
                 App.Current.Properties["Username"] = token.Username;
+                App.Current.Properties["FullName"] = token.FullName;
+
             }
             catch (Exception ex)
             {

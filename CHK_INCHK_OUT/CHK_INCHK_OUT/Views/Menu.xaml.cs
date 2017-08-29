@@ -19,8 +19,12 @@ namespace CHK_INCHK_OUT.Views
         Token token;
         public Menu()
         {
-            this.token = PropertiesOperations.GetTokenProperties();
             InitializeComponent();
+
+            this.token = PropertiesOperations.GetTokenProperties();
+            //show Name
+            if (this.token.FullName != null)
+                lblFullName.Text = this.token.FullName;
 
             //if users checked in, redirect to activies page so that can check out
             if(App.Current.Properties.ContainsKey("checkIn") && ((bool)App.Current.Properties["checkIn"]) && App.Current.Properties.ContainsKey("numProy"))
