@@ -20,19 +20,33 @@ namespace CHK_INCHK_OUT
         {
             try
             {
-                BtnLogin.IsEnabled = false;
-                actLoading.IsRunning = true;
+                if(UserLg.Text != null && UserLg.Text.Trim() != string.Empty)
+                {
+                    if(PassLg.Text != null && PassLg.Text != string.Empty)
+                    {
+                        BtnLogin.IsEnabled = false;
+                        actLoading.IsRunning = true;
 
-                Services.UserServices postUer = new Services.UserServices();
-                Model.Login data = new Model.Login(UserLg.Text, PassLg.Text);
-                Token token = await postUer.PostUserAsync(data);
-                //App.Current.Properties["token"] = token;
-                PropertiesOperations.SetTokenProperties(token);
-                await this.RemoveLogin();
-                //await Navigation.PushAsync(new Menu());
-                actLoading.IsRunning = false;
-                BtnLogin.IsEnabled = true;
-                App.Current.Properties["logged"] = true;
+                        Services.UserServices postUer = new Services.UserServices();
+                        Model.Login data = new Model.Login(UserLg.Text.Trim(), PassLg.Text);
+                        Token token = await postUer.PostUserAsync(data);
+                        //App.Current.Properties["token"] = token;
+                        PropertiesOperations.SetTokenProperties(token);
+                        await this.RemoveLogin();
+                        //await Navigation.PushAsync(new Menu());
+                        actLoading.IsRunning = false;
+                        BtnLogin.IsEnabled = true;
+                        App.Current.Properties["logged"] = true;
+                    }
+                    else
+                    {
+                        await DisplayAlert("Error", "Ingresa contraseña", "OK");
+                    }
+                }
+                else
+                {
+                    await DisplayAlert("Error","Ingresa usuario","OK");
+                }
             }
             catch (Exception ex)
             {

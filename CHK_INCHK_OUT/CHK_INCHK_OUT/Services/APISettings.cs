@@ -8,7 +8,6 @@ namespace CHK_INCHK_OUT.Services
 {
     public class APISettings
     {
-        
         public static readonly string API_URL = "http://189.195.134.197:8087/";
     }
 }

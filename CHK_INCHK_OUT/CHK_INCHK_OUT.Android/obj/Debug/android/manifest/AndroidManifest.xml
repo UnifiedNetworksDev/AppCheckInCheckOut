@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" android:versionCode="1" android:versionName="1.0" package="CHK_INCHK_OUT.Android">
   <!--suppress UsesMinSdkAttributes-->
-  <uses-sdk android:minSdkVersion="15" />
+  <uses-sdk android:minSdkVersion="14" />
   <uses-permission android:name="android.permission.CAMERA" />
   <uses-permission android:name="android.permission.FLASHLIGHT" />
   <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
@@ -11,7 +11,7 @@
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <uses-feature android:name="android.hardware.location.gps" />
   <uses-feature android:name="android.hardware.location.network" />
-  <application android:label="CHK_INCHK_OUT.Android" android:name="md5ca301240cddadb09aad103550f7967d3.MainApplication" android:allowBackup="true" android:icon="@drawable/icon" android:debuggable="true">
+  <application android:label="Check In" android:name="md5ca301240cddadb09aad103550f7967d3.MainApplication" android:allowBackup="true" android:icon="@drawable/icon" android:debuggable="true">
     <activity android:configChanges="orientation|screenSize" android:icon="@drawable/icon" android:label="UnifiedN" android:theme="@style/MainTheme" android:name="md5ca301240cddadb09aad103550f7967d3.MainActivity" />
     <activity android:noHistory="true" android:theme="@style/Theme.Splash" android:name="md5ca301240cddadb09aad103550f7967d3.SplashActivity">
       <intent-filter>

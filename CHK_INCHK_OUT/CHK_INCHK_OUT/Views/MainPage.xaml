@@ -6,11 +6,11 @@
 
     <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" >
         <Image Source="splash.png" HorizontalOptions="Center"/>
-        <Label FontAttributes="Bold" FontSize="30" TextColor="Black"  Text="servicios" VerticalOptions="Center" HorizontalOptions="Center" />
+        <Label FontAttributes="Bold" FontSize="30" TextColor="Black"  Text="Servicios" VerticalOptions="Center" HorizontalOptions="Center" />
         <ActivityIndicator HorizontalOptions="Center" x:Name="actLoading" IsRunning="False" Color="#1360ad"/>
-        <Entry HorizontalOptions="Center" WidthRequest="250" Placeholder="UserName" TextColor="#1360ad"  x:Name="UserLg" Text="Administrator" HorizontalTextAlignment="Center" FontSize="Large"/>
-        <Entry HorizontalOptions="Center" WidthRequest="250" Placeholder="Password" IsPassword="True" TextColor="#1360ad"   x:Name="PassLg"  Text="SYSt3m3632" HorizontalTextAlignment="Center" FontSize="Large"/>
-        <Button WidthRequest="300" Text="Login" TextColor="White" BackgroundColor="#1976D2" Clicked="BtnLogin_Clicked"  x:Name="BtnLogin" HorizontalOptions="Center"/>
+        <Entry HorizontalOptions="Center" WidthRequest="250" Placeholder="Usuario de AD" TextColor="#1360ad"  x:Name="UserLg" HorizontalTextAlignment="Center" FontSize="Large"/>
+        <Entry HorizontalOptions="Center" WidthRequest="250" Placeholder="Contraseña" IsPassword="True" TextColor="#1360ad" x:Name="PassLg" HorizontalTextAlignment="Center" FontSize="Large"/>
+        <Button WidthRequest="200" Text="Login" TextColor="White" BackgroundColor="#1976D2" Clicked="BtnLogin_Clicked"  x:Name="BtnLogin" HorizontalOptions="Center"/>
       
     </StackLayout>
 

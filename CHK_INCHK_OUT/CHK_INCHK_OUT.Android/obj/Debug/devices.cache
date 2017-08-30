@@ -16,4 +16,8 @@
     <ResultingAbi>armeabi-v7a</ResultingAbi>
     <SdkVersion>24</SdkVersion>
   </Device>
+  <Device id="BH903LYQ14">
+    <ResultingAbi>armeabi-v7a</ResultingAbi>
+    <SdkVersion>22</SdkVersion>
+  </Device>
 </Devices>

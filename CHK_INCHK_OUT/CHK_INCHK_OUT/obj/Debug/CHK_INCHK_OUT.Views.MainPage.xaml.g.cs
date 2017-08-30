@@ -11,8 +11,8 @@
 namespace CHK_INCHK_OUT {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Adal\\Documents\\Desarrollos\\AppCheckInCheckOut-2\\CHK_INCHK_OUT\\CHK_INCHK_" +
-        "OUT\\Views\\MainPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Samuel\\Documents\\AppCheckInCheckOut\\CHK_INCHK_OUT\\CHK_INCHK_OUT\\Views\\Ma" +
+        "inPage.xaml")]
     public partial class MainPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
