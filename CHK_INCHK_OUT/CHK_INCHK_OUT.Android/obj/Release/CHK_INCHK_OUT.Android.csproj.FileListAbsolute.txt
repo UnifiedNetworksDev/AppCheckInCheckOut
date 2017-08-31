@@ -82,3 +82,13 @@ C:\Users\Samuel\Documents\AppCheckInCheckOut\CHK_INCHK_OUT\CHK_INCHK_OUT.Android
 C:\Users\Samuel\Documents\AppCheckInCheckOut\CHK_INCHK_OUT\CHK_INCHK_OUT.Android\obj\Release\res\drawable\splash.png
 C:\Users\Samuel\Documents\AppCheckInCheckOut\CHK_INCHK_OUT\CHK_INCHK_OUT.Android\obj\Release\R.cs.flag
 C:\Users\Samuel\Documents\AppCheckInCheckOut\CHK_INCHK_OUT\CHK_INCHK_OUT.Android\obj\Release\uploadflags.txt
+C:\Users\Samuel\Documents\AppCheckInCheckOut\CHK_INCHK_OUT\CHK_INCHK_OUT.Android\bin\Release\CHK_INCHK_OUT.dll.mdb
+C:\Users\Samuel\Documents\AppCheckInCheckOut\CHK_INCHK_OUT\CHK_INCHK_OUT.Android\bin\Release\CHK_INCHK_OUT.Android.dll.mdb
+C:\Users\Samuel\Documents\AppCheckInCheckOut\CHK_INCHK_OUT\CHK_INCHK_OUT.Android\obj\Release\android\assets\CHK_INCHK_OUT.Android.dll.mdb
+C:\Users\Samuel\Documents\AppCheckInCheckOut\CHK_INCHK_OUT\CHK_INCHK_OUT.Android\obj\Release\android\assets\CHK_INCHK_OUT.dll.mdb
+C:\Users\Samuel\Documents\AppCheckInCheckOut\CHK_INCHK_OUT\CHK_INCHK_OUT.Android\obj\Release\android\assets\FormsViewGroup.dll.mdb
+C:\Users\Samuel\Documents\AppCheckInCheckOut\CHK_INCHK_OUT\CHK_INCHK_OUT.Android\obj\Release\android\assets\Plugin.Geolocator.dll.mdb
+C:\Users\Samuel\Documents\AppCheckInCheckOut\CHK_INCHK_OUT\CHK_INCHK_OUT.Android\obj\Release\android\assets\Plugin.Permissions.dll.mdb
+C:\Users\Samuel\Documents\AppCheckInCheckOut\CHK_INCHK_OUT\CHK_INCHK_OUT.Android\obj\Release\android\assets\Xamarin.Forms.Core.dll.mdb
+C:\Users\Samuel\Documents\AppCheckInCheckOut\CHK_INCHK_OUT\CHK_INCHK_OUT.Android\obj\Release\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
+C:\Users\Samuel\Documents\AppCheckInCheckOut\CHK_INCHK_OUT\CHK_INCHK_OUT.Android\obj\Release\android\assets\Xamarin.Forms.Xaml.dll.mdb
