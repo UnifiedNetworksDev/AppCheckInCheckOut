@@ -11,8 +11,8 @@
 namespace CHK_INCHK_OUT {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Adal\\Documents\\Desarrollos\\AppCheckInCheckOut-2\\CHK_INCHK_OUT\\CHK_INCHK_" +
-        "OUT\\App.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Samuel\\Documents\\AppCheckInCheckOut\\CHK_INCHK_OUT\\CHK_INCHK_OUT\\App.xaml" +
+        "")]
     public partial class App : global::Xamarin.Forms.Application {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

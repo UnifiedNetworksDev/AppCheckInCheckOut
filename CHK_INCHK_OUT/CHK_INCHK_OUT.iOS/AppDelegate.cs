@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-
 using Foundation;
 using UIKit;
+using Xamarin.Forms.Platform.iOS;
+using Xamarin.Forms;
 
 namespace CHK_INCHK_OUT.iOS
 {
@@ -23,6 +24,13 @@ namespace CHK_INCHK_OUT.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
+
+            //Set Navigation bar colors
+            UINavigationBar.Appearance.BarTintColor = Color.FromHex("#175081").ToUIColor();
+            UINavigationBar.Appearance.TintColor = UIColor.White;
+            UINavigationBar.Appearance.SetTitleTextAttributes(
+                new UITextAttributes { TextColor = Color.White.ToUIColor() });
+
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);

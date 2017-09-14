@@ -16,7 +16,6 @@
     <ResolvedResourceDirectory>C:\Users\Samuel\Documents\AppCheckInCheckOut\CHK_INCHK_OUT\CHK_INCHK_OUT.Android\obj\Release\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>C:\Users\Samuel\Documents\AppCheckInCheckOut\CHK_INCHK_OUT\CHK_INCHK_OUT.Android\obj\Release\__library_projects__\Xamarin.Forms.Platform\library_project_imports\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>C:\Users\Samuel\Documents\AppCheckInCheckOut\CHK_INCHK_OUT\CHK_INCHK_OUT.Android\obj\Release\__library_projects__\ZXingNetMobile\library_project_imports\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\Samuel\Documents\AppCheckInCheckOut\CHK_INCHK_OUT\CHK_INCHK_OUT.Android\obj\Release\__library_projects__\Plugin.Geolocator\library_project_imports\res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
     <ResolvedAssetDirectory>obj\Release\__library_projects__\FastAndroidCamera\library_project_imports\assets</ResolvedAssetDirectory>
@@ -27,7 +26,6 @@
     <ResolvedAssetDirectory>obj\Release\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\Release\__library_projects__\Xamarin.Forms.Platform\library_project_imports\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\Release\__library_projects__\ZXingNetMobile\library_project_imports\assets</ResolvedAssetDirectory>
-    <ResolvedAssetDirectory>obj\Release\__library_projects__\Plugin.Geolocator\library_project_imports\assets</ResolvedAssetDirectory>
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
@@ -45,6 +43,5 @@
     <ResolvedResourceDirectoryStamp>C:\Users\Samuel\Documents\AppCheckInCheckOut\CHK_INCHK_OUT\CHK_INCHK_OUT.Android\obj\Release\__library_projects__\Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>C:\Users\Samuel\Documents\AppCheckInCheckOut\CHK_INCHK_OUT\CHK_INCHK_OUT.Android\obj\Release\__library_projects__\Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>C:\Users\Samuel\Documents\AppCheckInCheckOut\CHK_INCHK_OUT\CHK_INCHK_OUT.Android\obj\Release\__library_projects__\ZXingNetMobile.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\Samuel\Documents\AppCheckInCheckOut\CHK_INCHK_OUT\CHK_INCHK_OUT.Android\obj\Release\__library_projects__\Plugin.Geolocator.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>
 </Paths>

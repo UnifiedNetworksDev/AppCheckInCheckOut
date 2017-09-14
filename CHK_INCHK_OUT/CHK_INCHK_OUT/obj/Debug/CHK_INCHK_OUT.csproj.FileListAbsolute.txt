@@ -114,7 +114,6 @@ C:\Users\Samuel\Documents\AppCheckInCheckOut\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Deb
 C:\Users\Samuel\Documents\AppCheckInCheckOut\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\Xamarin.Forms.Xaml.pdb
 C:\Users\Samuel\Documents\AppCheckInCheckOut\CHK_INCHK_OUT\CHK_INCHK_OUT\bin\Debug\Xamarin.Forms.Xaml.xml
 C:\Users\Samuel\Documents\AppCheckInCheckOut\CHK_INCHK_OUT\CHK_INCHK_OUT\obj\Debug\CHK_INCHK_OUT.csproj.App.config
-C:\Users\Samuel\Documents\AppCheckInCheckOut\CHK_INCHK_OUT\CHK_INCHK_OUT\obj\Debug\CHK_INCHK_OUT.csprojResolveAssemblyReference.cache
 C:\Users\Samuel\Documents\AppCheckInCheckOut\CHK_INCHK_OUT\CHK_INCHK_OUT\obj\Debug\CHK_INCHK_OUT.Views.MainPage.xaml.g.cs
 C:\Users\Samuel\Documents\AppCheckInCheckOut\CHK_INCHK_OUT\CHK_INCHK_OUT\obj\Debug\CHK_INCHK_OUT.App.xaml.g.cs
 C:\Users\Samuel\Documents\AppCheckInCheckOut\CHK_INCHK_OUT\CHK_INCHK_OUT\obj\Debug\CHK_INCHK_OUT.Views.Tareas.xaml.g.cs

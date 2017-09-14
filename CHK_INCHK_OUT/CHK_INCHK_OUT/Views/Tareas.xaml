@@ -24,6 +24,6 @@
             </ListView.ItemTemplate>
         </ListView>
         <ActivityIndicator HorizontalOptions="Center" x:Name="actLoading" IsRunning="False" Color="#1360ad"/>
-        <Button x:Name="btnSend" HorizontalOptions="CenterAndExpand" Text="Check out" Clicked="Button_Clicked" Margin="0,0,0,10"></Button>
+        <Button x:Name="btnSend" HorizontalOptions="CenterAndExpand" Text="Check out" Clicked="Button_Clicked" BackgroundColor="#1976D2" TextColor="White" Margin="0,0,0,10"></Button>
     </StackLayout>
 </ContentPage>

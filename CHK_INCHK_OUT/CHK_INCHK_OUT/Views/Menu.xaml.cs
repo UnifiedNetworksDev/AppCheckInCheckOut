@@ -51,11 +51,16 @@ namespace CHK_INCHK_OUT.Views
         {
             try
             {
-                var options = new ZXing.Mobile.MobileBarcodeScanningOptions();
-                options.PossibleFormats = new List<ZXing.BarcodeFormat>()
+                var options = new ZXing.Mobile.MobileBarcodeScanningOptions()
                 {
-                    ZXing.BarcodeFormat.EAN_8, ZXing.BarcodeFormat.EAN_13
+                    AutoRotate = false,
+                    TryInverted = true,
+                    TryHarder = true,
                 };
+                //options.PossibleFormats = new List<ZXing.BarcodeFormat>()
+                //{
+                //    ZXing.BarcodeFormat.EAN_8, ZXing.BarcodeFormat.EAN_13
+                //};
                 var scanner = new ZXing.Mobile.MobileBarcodeScanner();
                 var result = await scanner.Scan(options);
 
