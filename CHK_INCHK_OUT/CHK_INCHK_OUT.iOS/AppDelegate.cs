@@ -5,6 +5,7 @@ using Foundation;
 using UIKit;
 using Xamarin.Forms.Platform.iOS;
 using Xamarin.Forms;
+using KeyboardOverlap.Forms.Plugin.iOSUnified;
 
 namespace CHK_INCHK_OUT.iOS
 {
@@ -24,6 +25,7 @@ namespace CHK_INCHK_OUT.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
+            KeyboardOverlapRenderer.Init();
 
             //Set Navigation bar colors
             UINavigationBar.Appearance.BarTintColor = Color.FromHex("#175081").ToUIColor();
