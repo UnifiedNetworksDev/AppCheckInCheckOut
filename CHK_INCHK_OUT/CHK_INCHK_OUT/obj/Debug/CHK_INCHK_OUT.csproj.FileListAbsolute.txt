@@ -120,3 +120,4 @@ C:\Users\Samuel\Documents\AppCheckInCheckOut\CHK_INCHK_OUT\CHK_INCHK_OUT\obj\Deb
 C:\Users\Samuel\Documents\AppCheckInCheckOut\CHK_INCHK_OUT\CHK_INCHK_OUT\obj\Debug\CHK_INCHK_OUT.Views.Menu.xaml.g.cs
 C:\Users\Samuel\Documents\AppCheckInCheckOut\CHK_INCHK_OUT\CHK_INCHK_OUT\obj\Debug\CHK_INCHK_OUT.dll
 C:\Users\Samuel\Documents\AppCheckInCheckOut\CHK_INCHK_OUT\CHK_INCHK_OUT\obj\Debug\CHK_INCHK_OUT.pdb
+C:\Users\Samuel\Documents\AppCheckInCheckOut\CHK_INCHK_OUT\CHK_INCHK_OUT\obj\Debug\CHK_INCHK_OUT.csprojResolveAssemblyReference.cache
